@@ -1,6 +1,6 @@
 
 if has("gui_macvim")
-  set guifont=Monaco:h13.00
+  set guifont=Monaco:h14.00
 
   " Fullscreen takes up entire screen
   set fuoptions=maxhorz,maxvert
@@ -34,7 +34,7 @@ endif
 set guioptions-=T
 
 " Default gui color scheme
-color wombat
+color jellybeans
 
 " ConqueTerm wrapper
 function StartTerm()
