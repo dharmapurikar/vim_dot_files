@@ -151,7 +151,7 @@ vim_plugin_task "ruby_focused_unit_test_vim", "https://github.com/drewolson/ruby
 vim_plugin_task "bufexplorer",      "http://www.vim.org/scripts/download_script.php?src_id=14208"
 vim_plugin_task "coffee-script",    "http://github.com/kchmck/vim-coffee-script.git"
 
-vim_plugin_task "command_t",        "http://github.com/wincent/Command-T.git" do
+vim_plugin_task "command_t",        "http://github.com/dharmapurikar/Command-T.git" do
 
   sh "find ruby -name '.gitignore' | xargs rm"
   Dir.chdir "ruby/command-t" do
